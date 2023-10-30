@@ -97,7 +97,7 @@ body:
   - type: textarea
     id: funding
     attributes:
-      label: funding
+      label: Funding
       description: Any awards and funders that apply 
       placeholder: Last name, First Name
     validations: 
