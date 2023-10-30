@@ -52,7 +52,7 @@ body:
     attributes:
       label: DOI
       description: Enter existing DOI for this submission. 
-      placeholder: A DOI allows your upload to be easily and unambiguously cited. Example: 10.1234/foo.bar
+      placeholder: A DOI allows your upload to be easily and unambiguously cited. Example - 10.1234/fun.num
       
   - type: input 
     id: Date-of-publishing
