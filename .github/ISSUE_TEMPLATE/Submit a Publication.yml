@@ -39,10 +39,20 @@ body:
       label: Publication type
       description: WWhat type of file are you submitting?
       options:
-        - Journal entry
-        - Published article
-        - published use case
-        - open source software
+        - Dataset
+        - Event
+        - Lesson
+        - Journal article
+        - Poster
+        - Presentation
+        - Publication / Book or book chapter
+        - Publication / Conference Paper
+        - Publication / Data paper
+        - Publication / Journal or Journal article
+        - Publication / Report
+        - Publication / Software documentation
+        - Publication / Standards
+        - Software (open acces/source)
         - other
       default: 0
     validations:
@@ -50,10 +60,9 @@ body:
   - type: input
     id: DOI
     attributes:
-      label: DOI
+      label: Existing Digital Object Identifier (DOI)
       description: Enter existing DOI for this submission. 
       placeholder: A DOI allows your upload to be easily and unambiguously cited. Example - 10.1234/fun.num
-      
   - type: input 
     id: Date-of-publishing
     attributes:
@@ -62,6 +71,43 @@ body:
       placeholder: 2023 March 15
     validations:
       required: true
+  - type: input
+    id: creators
+    attributes:
+      label: Creators
+      description: Who created the resource being submitted
+      placeholder: Last name, First Name
+    validations: 
+      required: true
+  - type: input
+    id: publisher
+    attributes:
+      label: Publisher
+      description: The publisher is used to formulate the citation, so consider the prominence of the role.
+    validations: 
+      required: true
+  - type: input
+    id: contributors
+    attributes:
+      label: Contributors
+      description: Who contributed to the resource being submitted
+      placeholder: Last name, First Name
+    validations: 
+      required: true
+  - type: text area
+    id: funding
+    attributes:
+      label: funding
+      description: Any awards and funders that apply 
+      placeholder: Last name, First Name
+    validations: 
+      required: true  
+  - type: input
+    id: journal-issn
+    attributes: 
+      label: ISSN
+      description: Journal Title and International Standard Serial Number (ISSN), if applicable
+      placeholder: Title of the journal on which the article was published
   - type: textarea
     id: description
     attributes:
