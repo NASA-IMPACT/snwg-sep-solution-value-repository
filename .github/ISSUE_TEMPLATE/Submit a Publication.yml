@@ -34,21 +34,21 @@ body:
     attributes:
       label: Description
       description: Add two to three sentences that explain the context of this publication and what it achieved.
-      placeholder: "To consider when completing this section...
-        "- When answering the question, "Add two to three sentences that explain the context of this publication and what it achieved," team members should keep in mind several considerations to provide a comprehensive and informative response:"
-        "- 1. Clarity and Conciseness: Ensure that the sentences are clear and concise. Avoid unnecessary jargon or technical details that might confuse readers who are not intimately familiar with the software or the subject matter."
-        "- 2. Contextual Information: Provide essential background information about the software and the problem it addresses. Explain why this publication is significant and relevant to the field."
-        "- 3. Achievements and Contributions: Clearly outline the achievements and contributions of the publication. What did the software or the research achieve? Highlight specific results or outcomes."
-        "- 4. Impact and Significance: Describe the broader impact and significance of the publication. How does it contribute to the field, and how might it benefit users, researchers, or the organization?"
-        "- 5. Target Audience: Consider the intended audience for the form and tailor the response accordingly. If it's for a technical audience, you can delve into more technical details. If it's for a broader audience, use layman's terms."
-        "- 6. Measurable Metrics: If applicable, include measurable metrics such as increased user engagement, reduced errors, improved performance, or any other quantifiable outcomes to demonstrate the success of the publication."
-        "- 7. Citations and References: If the publication builds on or references previous work, make sure to include relevant citations or references to acknowledge prior research or work that this publication builds upon."
-        "- 8. Future Implications: Discuss any potential future implications or applications of the publication. How might this work lead to further developments or research opportunities?"
-        "- 9. Avoiding Overstatements: While it's important to highlight achievements, be cautious not to overstate the impact or significance. Keep the description accurate and balanced."
-        "- 10. Relevance to the Form's Purpose: Ensure that the response directly addresses the purpose of the form, which is to report publications related to the software. Avoid unrelated or tangential information."
-        "- 11. Proofreading: Review and proofread the response for grammar and clarity. A well-structured and error-free response is more likely to effectively convey the message."
-        "- 12. Feedback and Collaboration: Consider seeking input or feedback from colleagues or peers who are familiar with the publication to ensure that the response accurately represents the work."
-        "- By keeping these considerations in mind, team members can provide informative, meaningful, and well-structured responses to the question, helping others understand the context and achievements of their publications related to the software."
+      placeholder: To consider when completing this section...
+        - When answering the question, team members should keep in mind several considerations to provide a comprehensive and informative response - 
+        - 1. Clarity and Conciseness. Ensure that the sentences are clear and concise. Avoid unnecessary jargon or technical details that might confuse readers who are not intimately familiar with the software or the subject matter.
+        - 2. Contextual Information. Provide essential background information about the software and the problem it addresses. Explain why this publication is significant and relevant to the field.
+        - 3. Achievements and Contributions. Clearly outline the achievements and contributions of the publication. What did the software or the research achieve? Highlight specific results or outcomes.
+        - 4. Impact and Significance. Describe the broader impact and significance of the publication. How does it contribute to the field, and how might it benefit users, researchers, or the organization?
+        - 5. Target Audience. Consider the intended audience for the form and tailor the response accordingly. If it's for a technical audience, you can delve into more technical details. If it's for a broader audience, use layman's terms.
+        - 6. Measurable Metrics. If applicable, include measurable metrics such as increased user engagement, reduced errors, improved performance, or any other quantifiable outcomes to demonstrate the success of the publication.
+        - 7. Citations and References. If the publication builds on or references previous work, make sure to include relevant citations or references to acknowledge prior research or work that this publication builds upon.
+        - 8. Future Implications. Discuss any potential future implications or applications of the publication. How might this work lead to further developments or research opportunities?
+        - 9. Avoiding Overstatements. While it is important to highlight achievements, be cautious not to overstate the impact or significance. Keep the description accurate and balanced.
+        - 10. Relevance to the Form Purpose. Ensure that the response directly addresses the purpose of the form, which is to report publications related to the software. Avoid unrelated or tangential information.
+        - 11. Proofreading. Review and proofread the response for grammar and clarity. A well-structured and error-free response is more likely to effectively convey the message.
+        - 12. Feedback and Collaboration. Consider seeking input or feedback from colleagues or peers who are familiar with the publication to ensure that the response accurately represents the work.
+        - By keeping these considerations in mind, team members can provide informative, meaningful, and well-structured responses to the question, helping others understand the context and achievements of their publications related to the software.
     validations:
       required: false
   - type: textarea
