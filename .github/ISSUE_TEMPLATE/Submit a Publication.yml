@@ -8,7 +8,7 @@ body:
       value: |
         This is the Issue template! The values you add will be converted to a properly formatted Issue for the SNWG Assessment Project.
   - type: dropdown
-    id: Milestones
+    id: publication-type
     attributes:
       label: Publication type
       description: WWhat type of file are you submitting?
@@ -22,7 +22,7 @@ body:
     validations:
       required: true
   - type: textarea 
-    id: Date of publishing
+    id: Date-of-publishing
     attributes:
       label: Published Date
       description: When was your submission published and available to the public? 
