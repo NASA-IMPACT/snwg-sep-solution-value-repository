@@ -13,6 +13,7 @@ body:
       label: SNWG Project
       description: Which SNWG project is this publication affiliated with/supporting?
       options: 
+        - Stakeholder Engagement Program
         - C1 - ADMG
         - C1 - CSDA
         - C1 - DCD
@@ -84,24 +85,18 @@ body:
     attributes:
       label: Publisher
       description: The publisher is used to formulate the citation, so consider the prominence of the role.
-    validations: 
-      required: true
   - type: input
     id: contributors
     attributes:
       label: Contributors
       description: Who contributed to the resource being submitted
       placeholder: Last name, First Name
-    validations: 
-      required: true
   - type: textarea
     id: funding
     attributes:
       label: Funding
       description: Any awards and funders that apply 
       placeholder: Last name, First Name
-    validations: 
-      required: true  
   - type: input
     id: journal-info
     attributes: 
@@ -129,7 +124,7 @@ body:
         - 12. Feedback and Collaboration. Consider seeking input or feedback from colleagues or peers who are familiar with the publication to ensure that the response accurately represents the work.
         - By keeping these considerations in mind, team members can provide informative, meaningful, and well-structured responses to the question, helping others understand the context and achievements of their publications related to the software.
     validations:
-      required: false
+      required: true
   - type: textarea
     id: related
     attributes:
@@ -138,5 +133,3 @@ body:
         Add cards on which this issue is related
         Github automatically provides a list of possible issues if you start by typing a `#`
       placeholder: link to related Github repository, issues, or projects
-    validations:
-      required: false
