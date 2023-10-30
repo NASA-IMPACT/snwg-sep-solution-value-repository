@@ -7,12 +7,12 @@ body:
     attributes:
     value: |
       This is the SNWG MO publication Submission Form. The values you add will be converted to a properly formatted Issue for the SNWG Management Office.
-   - type: dropdown
-     id: SNWG-project
-     attributes:
-       label: SNWG Project
-       description: Which SNWG project is this publication affiliated with/supporting?
-       options: 
+  - type: dropdown
+    id: SNWG-project
+    attributes:
+      label: SNWG Project
+      description: Which SNWG project is this publication affiliated with/supporting?
+      options: 
          - C1 - ADMG
          - C1 - CSDA
          - C1 - DCD
