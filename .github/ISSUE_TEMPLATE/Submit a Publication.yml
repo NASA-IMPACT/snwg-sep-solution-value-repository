@@ -5,8 +5,8 @@ title: ISSUE TITLE
 body:
   - type: markdown
     attributes:
-    value: |
-      This is the SNWG MO publication Submission Form. The values you add will be converted to a properly formatted Issue for the SNWG Management Office.
+      value: |
+        This is the SNWG MO publication Submission Form. The values you add will be converted to a properly formatted Issue for the SNWG Management Office.
   - type: dropdown
     id: SNWG-project
     attributes:
