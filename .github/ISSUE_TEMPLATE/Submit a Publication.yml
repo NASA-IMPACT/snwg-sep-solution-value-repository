@@ -94,7 +94,7 @@ body:
       placeholder: Last name, First Name
     validations: 
       required: true
-  - type: text area
+  - type: textarea
     id: funding
     attributes:
       label: funding
@@ -103,7 +103,7 @@ body:
     validations: 
       required: true  
   - type: input
-    id: journal-issn
+    id: journal-info
     attributes: 
       label: ISSN
       description: Journal Title and International Standard Serial Number (ISSN), if applicable
