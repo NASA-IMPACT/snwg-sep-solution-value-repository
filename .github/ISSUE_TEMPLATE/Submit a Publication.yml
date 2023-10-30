@@ -8,28 +8,28 @@ body:
       value: |
         This is the SNWG MO publication Submission Form. The values you add will be converted to a properly formatted Issue for the SNWG Management Office.
    - type: dropdown
-   id: SNWG-project
-   attributes:
-     label: SNWG Project
-     description: Which SNWG project is this publication affiliated with/supporting?
-     options: 
-       - C1 - ADMG
-       - C1 - CSDA
-       - C1 - DCD
-       - C1 - HLS
-       - C2 - OPERA (if applicable to GSWx, DIST, or DISP specifically, please note that)
-       - C2 - AC-GEOS
-       - C2 - Freeboard and Ice Thickness
-       - C2 - Internet of Animals
-       - C2 - NISAR Soil Moisture
-       - C2 - SatCORPS
-       - C2 - Water Quality Product
-       - C3 - Air Quality Product
-       - C3 - Planetary Boundary Layer
-       - C3 - Sea Ice
-       - C3 - TEMPO NRT
-       - C3 - HLS- Vegitation Indices
-       - Other (Please specify below)
+     id: SNWG-project
+     attributes:
+       label: SNWG Project
+       description: Which SNWG project is this publication affiliated with/supporting?
+       options: 
+         - C1 - ADMG
+         - C1 - CSDA
+         - C1 - DCD
+         - C1 - HLS
+         - C2 - OPERA (if applicable to GSWx, DIST, or DISP specifically, please note that)
+         - C2 - AC-GEOS
+         - C2 - Freeboard and Ice Thickness
+         - C2 - Internet of Animals
+         - C2 - NISAR Soil Moisture
+         - C2 - SatCORPS
+         - C2 - Water Quality Product
+         - C3 - Air Quality Product
+         - C3 - Planetary Boundary Layer
+         - C3 - Sea Ice
+         - C3 - TEMPO NRT
+         - C3 - HLS- Vegitation Indices
+         - Other (Please specify below)
        
   - type: dropdown
     id: publication-type
