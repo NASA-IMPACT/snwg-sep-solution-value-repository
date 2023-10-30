@@ -47,10 +47,17 @@ body:
       default: 0
     validations:
       required: true
-  - type: textarea 
+  - type: input
+    id: DOI
+    attributes:
+      label: DOI
+      description: Enter existing DOI for this submission. 
+      placeholder: A DOI allows your upload to be easily and unambiguously cited. Example: 10.1234/foo.bar
+      
+  - type: input 
     id: Date-of-publishing
     attributes:
-      label: Published Date
+      label: Publication Date
       description: When was your submission published and available to the public? 
       placeholder: 2023 March 15
     validations:
