@@ -1,7 +1,7 @@
 name: New Issue Form 
 description: Submit a record of publication
 title: ISSUE TITLE
-projects: ##NASA-IMPACT/50
+##projects: NASA-IMPACT/50
 body:
   - type: markdown
     attributes:
