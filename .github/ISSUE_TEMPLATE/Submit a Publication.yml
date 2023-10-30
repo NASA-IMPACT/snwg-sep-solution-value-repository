@@ -4,7 +4,7 @@ title: ISSUE TITLE
 ##projects: NASA-IMPACT/50
 body:
    - type: markdown
-    attributes:
+     attributes:
       value: |
         This is the SNWG MO publication Submission Form. The values you add will be converted to a properly formatted Issue for the SNWG Management Office.
    - type: dropdown
