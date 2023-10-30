@@ -30,7 +30,9 @@ body:
          - C3 - TEMPO NRT
          - C3 - HLS- Vegitation Indices
          - Other (Please specify below)
-       
+       default: 0
+     validations: 
+       required: true
   - type: dropdown
     id: publication-type
     attributes:
