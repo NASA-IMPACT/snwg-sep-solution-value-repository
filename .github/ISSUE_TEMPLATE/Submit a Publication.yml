@@ -53,7 +53,8 @@ body:
         - Publication / Report
         - Publication / Software documentation
         - Publication / Standards
-        - Software (open acces/source)
+        - Software (open access/source)
+        - Use Case/Study
         - other
       default: 0
     validations:
