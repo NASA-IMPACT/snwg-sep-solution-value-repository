@@ -1,7 +1,7 @@
 name: Submit a Record of resource or value
 description: Submit a record of resource or value 
 title: "ISSUE TITLE"
-projects: NASA-IMPACT/87
+## projects: NASA-IMPACT/116
 body:
   - type: markdown
     attributes:
